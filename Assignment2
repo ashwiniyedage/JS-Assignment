@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Assignment2</title>
+    </head>
+    <body>
+	<h1>How to use print function()</h1>
+    <p>Hello Everyone...How are you..?</p>
+    <button onclick="print_page()">Print</button>
+        <script>
+            function print_page()
+            {
+                window.print();
+            }
+        </script>
+    </body>
+</html
