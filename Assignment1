@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>First Demo</title>
+        
+    </head>
+    <body>
+    <h2>This is First Demo</h2>
+       <script>
+           var today = new Date();
+           var day = today.getDay();
+           var daylist = ["Sunday", "Moday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saterday"];
+           var hour = today.getHours();
+           var minute = today.getMinutes();
+           var second = today.getSeconds();
+           var meridiem =(hour>12)? "PM":"AM";
+           document.write("Today is : "+daylist[day]);
+           document.write("<br>Current time : "+hour+" "+meridiem+" :"+minute+" : "+second);
+        </script>
+    </body>
+</html
