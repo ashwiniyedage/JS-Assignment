@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Student marks and grade</title>
+        <script>
+            function calculate()
+            {
+                var mar = document.getElementById("marks").value;
+                if(mar>75)
+                {
+                    console.log(`Marks are ${mar} and grade is A`);
+                }
+                else if(mar>50 && mar<75)
+                {
+                    console.log(`Marks are ${mar} and grade is B`);
+                }
+                else
+                {
+                    console.log(`Marks are ${mar} and grade is C`);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <input type="number" id="marks">
+        <button type="submit" onclick="calculate()">submit</button>
+    </body>
+</html>
