@@ -1,0 +1,18 @@
+<html lang="en">
+    <head>
+        <title>OS Version Assignment3</title>
+       <script>
+           function demo()
+           {
+               let osName= document.getElementById('input1').value;
+               let temp =osName.split(" ",1);
+               let ver=osName.split(" ");
+               console.log(`The OS name is ${temp} and Veriosn is ${ver[1]}.`);
+           }
+       </script>
+    </head>
+    <body>
+        <input type="text" id="input1">
+        <button type="submit" onclick="demo()">Submit</button>
+    </body>
+</html>
